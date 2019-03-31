@@ -360,7 +360,7 @@ pre code.hljs {
 .form-control::placeholder,
 .token-input::placeholder,
 .u-placeholder {
-  color: hsl(0,0%,80%);
+  color: #949494;
 }
 
 .btn {
@@ -2209,11 +2209,11 @@ kbd {
 .page-content {
   .formGroup-label label,
   .label {
-    color: hsl(197,18%,70%);
+    color: #4D595B;
   }
   .help-text,
   .help-block {
-    color: hsl(198,19%,72%);
+    color: #4D595B;
   }
   .content-controls-align-right {
     display: flex;
@@ -2447,8 +2447,8 @@ ol.tabs li {
   display: flex;
   padding: 0;
   margin-bottom: 20px;
-  color: #b8b8b8;
-  border: 1px solid rgba(0,8,14,.08);
+  color: #595959;
+  border: 1px solid #595959;
   border-radius: 3px;
   background: white;
 }
@@ -2467,7 +2467,7 @@ ol.tabs li {
     height: 35px;
     padding: 8px 20px;
     text-align: center;
-    border-right: 1px solid rgba(0,8,14,.08);
+    border-right: 1px solid #595959;
     flex: 1 1 auto;
     @extend .u-clickable;
     white-space: nowrap;
@@ -3152,7 +3152,7 @@ footer {
   .menu-item {
     padding: 0 15px;
     height: 48px;
-    color: rgba(240, 250, 255, .25);
+    color: #FFFFFF;
     border-bottom: 1px solid rgba(240, 250, 255, .05);
     text-decoration: none;
     display: flex;
@@ -3200,7 +3200,7 @@ footer {
     @include bidi-style(margin-right, 15px, margin-left, 0);
     width: 24px;
     height: 24px;
-    fill: hsl(206,7%,37%);
+    fill: #FFFFFF;
   }
 
   .menu-item-name {
@@ -3252,7 +3252,7 @@ footer {
   .nav-tab {
     @include bidi-style(padding, 10px 15px 9px 0, padding, 10px 0 9px 15px);
     position: relative;
-    color: #808080;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     @extend .u-clickable;
@@ -3276,7 +3276,6 @@ footer {
     }
 
   .nav-tab:hover {
-    color: #808080;
     text-decoration: none;
   }
 
@@ -4394,7 +4393,7 @@ footer {
     }
 
     .stat-widget .stat-detail {
-      color: #b4b7b9;
+      color: #595959;
       @extend .u-textTruncate;
     }
 
@@ -6191,7 +6190,7 @@ footer {
 .type-tabs .tab-icon {
   width: 16px;
   height: 16px;
-  fill: #ccc;
+  fill: #595959;
   vertical-align: top;
   @include bidi-style(margin-right, 9px, margin-left, 0);
   margin-top: 11px;
@@ -7021,7 +7020,7 @@ footer {
 
 .nav-tabs li {
   margin: 0;
-  color: hsl(0,0%,70%);
+  color: #595959;
   border: 1px solid hsl(0,0%,90%);
   margin-left: -1px;
   background: white;
