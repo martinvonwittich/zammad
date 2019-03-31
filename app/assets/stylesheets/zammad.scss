@@ -917,7 +917,7 @@ pre code.hljs {
     font-weight: inherit;
     text-align: inherit;
     line-height: inherit;
-    color: #d0d2d3;
+    color: #4D595B;
     background: none;
     border-radius: 0;
     vertical-align: baseline;
@@ -1317,7 +1317,7 @@ h5 {
 label,
 .label {
   text-transform: uppercase;
-  color: hsl(198,19%,72%);
+  color: #4D595B;
   display: block;
   font-size: 13px;
   font-weight: normal;
@@ -4078,7 +4078,7 @@ footer {
 
   a.list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #96969b;
+    color: currentColor;
     background: none;
   }
 
@@ -5897,7 +5897,7 @@ footer {
   }
 
   .sidebar .text-muted {
-    color: hsl(198,22%,82%);
+    color: #4D595B;
   }
 
 .alert {
