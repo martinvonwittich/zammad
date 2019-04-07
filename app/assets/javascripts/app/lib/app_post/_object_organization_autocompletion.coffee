@@ -345,6 +345,8 @@ class App.ObjectOrganizationAutocompletion extends App.Controller
       @lazySearch(query)
 
   searchObject: (query) =>
+    if @attribute.mangle_query_callback?
+      query = @attribute.mangle_query_callback(query)
     @ajax(
       id:    "searchObject#{@key}"
       type:  'GET'

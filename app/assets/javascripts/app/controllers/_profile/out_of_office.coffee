@@ -75,6 +75,8 @@ class Index extends App.ControllerSubContent
             translate: false
             disableCreateObject: true
             value: @localData
+            source: "#{@apiPath}/search/user"
+            mangle_query_callback: (query) -> "permissions:ticket.agent #{query}*"
           ]
       noFieldset: true
       params: @localData
